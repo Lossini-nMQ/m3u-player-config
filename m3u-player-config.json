@@ -6,95 +6,50 @@
       "name": "FR Test",
       "contains": [
         "fr france 2sd",
-        "france 2sd"
+        "france 2sd",
+        "fr france info fhd",
+        "france info fhd"
       ]
     },
     {
       "name": "FR CANAL+ LIVE",
-      "contains": [
-        "canal+ live",
-        "canal plus live"
-      ]
+      "contains": ["canal+ live", "canal plus live"]
     },
     {
       "name": "FR GENERAL SPORT",
-      "contains": [
-        "france sport",
-        "fr sport",
-        "sport france"
-      ]
+      "contains": ["france sport", "fr sport", "sport france"]
     },
     {
       "name": "AR BEIN SPORTS",
-      "contains": [
-        "bein arab",
-        "bein sport arab",
-        "bein sports ar"
-      ]
+      "contains": ["bein arab", "bein sport arab", "bein sports ar"]
     },
     {
       "name": "AR SPORT ARABIC",
-      "contains": [
-        "abu dhabi",
-        "abu dhaby",
-        "أبوظبي",
-        "ابوظبي",
-        "yas sport",
-        "رياضة",
-        "رياضية",
-        "رياضي",
-        "سبورت"
-      ]
+      "contains": ["abu dhabi", "abu dhaby", "أبوظبي", "ابوظبي", "yas sport", "رياضة", "رياضية", "رياضي", "سبورت"]
     },
     {
       "name": "UK SKY SPORTS",
-      "contains": [
-        "sky uk",
-        "sky sports uk",
-        "uk sport"
-      ]
+      "contains": ["sky uk", "sky sports uk", "uk sport"]
     },
     {
       "name": "IT SKY SPORT",
-      "contains": [
-        "sky sport it",
-        "sky sport ita",
-        "italy sport",
-        "italia sport"
-      ]
+      "contains": ["sky sport it", "sky sport ita", "italy sport", "italia sport"]
     },
     {
       "name": "BE SPORT",
-      "contains": [
-        "belgium sport",
-        "belgique sport",
-        "be sport"
-      ]
+      "contains": ["belgium sport", "belgique sport", "be sport"]
     },
     {
       "name": "ES SPORT",
-      "contains": [
-        "spain sport",
-        "espagne sport",
-        "es sport"
-      ]
+      "contains": ["spain sport", "espagne sport", "es sport"]
     },
     {
       "name": "PT SPORT TV",
-      "contains": [
-        "sport tv",
-        "portugal sport",
-        "pt sport"
-      ]
+      "contains": ["sport tv", "portugal sport", "pt sport"]
     },
     {
       "name": "AR ALGERIE",
-      "contains": [
-        "algérie",
-        "algerie",
-        "algeria",
-        "الجزائر"
-      ]
+      "contains": ["algérie", "algerie", "algeria", "الجزائر"]
     }
   ],
   "hidden_groups": [],
