@@ -47,6 +47,14 @@
       "contains": ["canal+ live", "canal plus live"]
     },
     {
+      "name": "FR DAZN",
+      "contains": ["dazn"]
+    },
+    {
+      "name": "FR || SPORT AMAZON PRIME",
+      "contains": ["amazon prime", "amazonprime", "amazone prime", "prime video"]
+    },
+    {
       "name": "FR || SPORT GÉNÉRAL",
       "contains": ["france sport", "fr sport", "sport france"]
     },
@@ -88,6 +96,8 @@
     "FR Test",
     "FR || CINÉMA",
     "FR GENERAL",
+    "FR DAZN",
+    "FR || SPORT AMAZON PRIME",
     "FR || SPORT GÉNÉRAL",
     "FR || CANAL+ LIVE",
     "AR || ALGERIE",
