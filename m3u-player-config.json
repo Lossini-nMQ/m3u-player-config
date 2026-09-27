@@ -1,64 +1,23 @@
 {
   "schema_version": 1,
+  "version": 3,
   "description": "Règles publiques de présentation des bouquets M3U Player. Aucun identifiant Xtream.",
   "groups": [
-    {
-      "name": "FR Test",
-      "contains": ["fr france 2sd", "france 2sd", "fr france info fhd", "france info fhd"]
-    },
-    {
-      "name": "FR || CINÉMA",
-      "contains": ["canal+ cinema", "canal plus cinema", "canal+ cine", "canal plus cine", "ciné+", "cine+", "ciné plus", "cine plus", "paramount channel", "paramount network", "paramount", "tcm cinéma", "tcm cinema", "tcm", "polar+", "polar plus", "canal+ polar", "canal plus polar", "ciné polar", "cine polar", "action", "ocs géants", "ocs geants", "ocs max", "ocs pulp", "ocs"]
-    },
-    {
-      "name": "FR || CANAL+ LIVE",
-      "contains": ["canal+ live", "canal plus live"]
-    },
-    {
-      "name": "FR DAZN",
-      "contains": ["dazn"]
-    },
-    {
-      "name": "FR || SPORT AMAZON PRIME",
-      "contains": ["amazon prime", "amazonprime", "amazone prime", "prime video"]
-    },
-    {
-      "name": "FR || SPORT GÉNÉRAL",
-      "contains": ["france sport", "fr sport", "sport france", "sport général", "sport general"]
-    },
-    {
-      "name": "AR || BEIN SPORTS",
-      "contains": ["bein arab", "bein sport arab", "bein sports ar"]
-    },
-    {
-      "name": "AR || SPORT ARABIC",
-      "contains": ["abu dhabi", "abu dhaby", "أبوظبي", "ابوظبي", "yas sport", "رياضة", "رياضية", "رياضي", "سبورت"]
-    },
-    {
-      "name": "UK || SKY SPORTS",
-      "contains": ["sky uk", "sky sports uk", "uk sport"]
-    },
-    {
-      "name": "IT || SKY SPORT",
-      "contains": ["sky sport it", "sky sport ita", "italy sport", "italia sport"]
-    },
-    {
-      "name": "BE || SPORT",
-      "contains": ["belgium sport", "belgique sport", "be sport"]
-    },
-    {
-      "name": "ES || SPORT",
-      "contains": ["spain sport", "espagne sport", "es sport"]
-    },
-    {
-      "name": "PT || SPORT TV",
-      "contains": ["sport tv", "portugal sport", "pt sport"]
-    },
-    {
-      "name": "AR || ALGERIE",
-      "contains": ["algérie", "algerie", "algeria", "الجزائر"]
-    }
+    {"name":"FR Test","contains":["fr france 2sd","france 2sd","fr france info fhd","france info fhd"]},
+    {"name":"FR || CINÉMA","contains":["canal+ cinema","canal plus cinema","canal+ cine","canal plus cine","ciné+","cine+","ciné plus","cine plus","paramount channel","paramount network","paramount","tcm cinéma","tcm cinema","tcm","polar+","polar plus","canal+ polar","canal plus polar","ciné polar","cine polar","action","ocs géants","ocs geants","ocs max","ocs pulp","ocs"]},
+    {"name":"FR || CANAL+ LIVE","contains":["canal+ live","canal plus live"]},
+    {"name":"FR || DAZN","contains":["dazn"]},
+    {"name":"FR || SPORT AMAZON PRIME","contains":["amazon prime","amazonprime","amazone prime","prime video"]},
+    {"name":"FR || SPORT GÉNÉRAL","contains":["france sport","fr sport","sport france","sport général","sport general","sport | général","sport | general","sport || général","sport || general","sport - général","sport - general","sport_general","fr | sport","fr || sport","france | sport","france || sport","france - sport","france sport général","france sport general"]},
+    {"name":"AR || BEIN SPORTS","contains":["bein arab","bein sport arab","bein sports ar"]},
+    {"name":"AR || SPORT ARABIC","contains":["abu dhabi","abu dhaby","أبوظبي","ابوظبي","yas sport","رياضة","رياضية","رياضي","سبورت"]},
+    {"name":"UK || SKY SPORTS","contains":["sky uk","sky sports uk","uk sport"]},
+    {"name":"IT || SKY SPORT","contains":["sky sport it","sky sport ita","italy sport","italia sport"]},
+    {"name":"BE || SPORT","contains":["belgium sport","belgique sport","be sport"]},
+    {"name":"ES || SPORT","contains":["spain sport","espagne sport","es sport"]},
+    {"name":"PT || SPORT TV","contains":["sport tv","portugal sport","pt sport"]},
+    {"name":"AR || ALGERIE","contains":["algérie","algerie","algeria","الجزائر"]}
   ],
   "hidden_groups": [],
-  "order": ["FR Test", "FR || CINÉMA", "FR GENERAL", "FR DAZN", "FR || SPORT AMAZON PRIME", "FR || SPORT GÉNÉRAL", "FR || CANAL+ LIVE", "AR || ALGERIE", "AR || BEIN SPORTS", "AR || SPORT ARABIC", "UK || SKY SPORTS", "IT || SKY SPORT", "BE || SPORT", "ES || SPORT", "PT || SPORT TV"]
+  "order": ["FR Test","FR || CINÉMA","FR GENERAL","FR || DAZN","FR || SPORT AMAZON PRIME","FR || SPORT GÉNÉRAL","FR || CANAL+ LIVE","AR || ALGERIE","AR || BEIN SPORTS","AR || SPORT ARABIC","UK || SKY SPORTS","IT || SKY SPORT","BE || SPORT","ES || SPORT","PT || SPORT TV"]
 }
