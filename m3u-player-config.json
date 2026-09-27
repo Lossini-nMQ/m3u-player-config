@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": 3,
+  "version": 4,
   "description": "Règles publiques de présentation des bouquets M3U Player. Aucun identifiant Xtream.",
   "groups": [
     {"name":"FR Test","contains":["fr france 2sd","france 2sd","fr france info fhd","france info fhd"]},
@@ -8,7 +8,9 @@
     {"name":"FR || CANAL+ LIVE","contains":["canal+ live","canal plus live"]},
     {"name":"FR || DAZN","contains":["dazn"]},
     {"name":"FR || SPORT AMAZON PRIME","contains":["amazon prime","amazonprime","amazone prime","prime video"]},
+    {"name":"FR || SPORT GENERAL","contains":["france sport","fr sport","sport france","sport général","sport general","sport | général","sport | general","sport || général","sport || general","sport - général","sport - general","sport_general","fr | sport","fr || sport","france | sport","france || sport","france - sport","france sport général","france sport general","general sport","canal+ foot","canal plus foot","canal+ premier league","canal plus premier league","canal+ sport","canal plus sport","canal+ sport 360","canal plus sport 360","canal+ formula 1","canal plus formula 1","canal+ f1","canal plus f1","eurosport","bein sports","bein sport","be in sport","rmc sport","l'équipe","lequipe","info sport","sport info"],"source_labels":["Python"]},
     {"name":"FR || SPORT GÉNÉRAL","contains":["france sport","fr sport","sport france","sport général","sport general","sport | général","sport | general","sport || général","sport || general","sport - général","sport - general","sport_general","fr | sport","fr || sport","france | sport","france || sport","france - sport","france sport général","france sport general"]},
+    {"name":"FR || GENERAL","contains":["fr general","france general"],"source_labels":["Python"]},
     {"name":"AR || BEIN SPORTS","contains":["bein arab","bein sport arab","bein sports ar"]},
     {"name":"AR || SPORT ARABIC","contains":["abu dhabi","abu dhaby","أبوظبي","ابوظبي","yas sport","رياضة","رياضية","رياضي","سبورت"]},
     {"name":"UK || SKY SPORTS","contains":["sky uk","sky sports uk","uk sport"]},
@@ -19,5 +21,13 @@
     {"name":"AR || ALGERIE","contains":["algérie","algerie","algeria","الجزائر"]}
   ],
   "hidden_groups": [],
-  "order": ["FR Test","FR || CINÉMA","FR GENERAL","FR || DAZN","FR || SPORT AMAZON PRIME","FR || SPORT GÉNÉRAL","FR || CANAL+ LIVE","AR || ALGERIE","AR || BEIN SPORTS","AR || SPORT ARABIC","UK || SKY SPORTS","IT || SKY SPORT","BE || SPORT","ES || SPORT","PT || SPORT TV"]
+  "order": ["FR Test","FR || CINÉMA","FR GENERAL","FR || DAZN","FR || SPORT AMAZON PRIME","FR || SPORT GÉNÉRAL","FR || CANAL+ LIVE","AR || ALGERIE","AR || BEIN SPORTS","AR || SPORT ARABIC","UK || SKY SPORTS","IT || SKY SPORT","BE || SPORT","ES || SPORT","PT || SPORT TV"],
+  "rename_groups": [
+    {"from":"FR GENERAL","to":"FR || GENERAL","source_labels":["Python"]},
+    {"from":"FR || SPORT GÉNÉRAL","to":"FR || SPORT GENERAL","source_labels":["Python"]},
+    {"from":"General Sport","to":"FR || SPORT GENERAL","source_labels":["Python"]}
+  ],
+  "playlist_orders": {
+    "Python": ["FR Test","FR || CINÉMA","FR || GENERAL","FR || DAZN","FR || SPORT AMAZON PRIME","FR || SPORT GENERAL","FR || CANAL+ LIVE","AR || ALGERIE","AR || BEIN SPORTS","AR || SPORT ARABIC","UK || SKY SPORTS","IT || SKY SPORT","BE || SPORT","ES || SPORT","PT || SPORT TV"]
+  }
 }
